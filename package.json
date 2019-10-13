@@ -4,7 +4,7 @@
   "description": "REST API server using `typicode json-server`",
   "main": "",
   "scripts": {
-    "start": "json-server --watch db.json",
+    "start": "json-server -p $PORT --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
